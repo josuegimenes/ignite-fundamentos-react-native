@@ -27,6 +27,9 @@ export function Home() {
       name: newSkill
     }
 
+    // Use CTRL+M on Windows to access the Android menu and click Debug.
+    // console.log("New Skill", data)
+
     setMySkills(oldState => [...oldState, data])
   }
 
